@@ -1,0 +1,500 @@
+   27  cd ..
+   28  ssh ec2-user@linux.itcareerhub.de
+   29  ssh ec2-user@linux.itcareerhub.de
+   30  ssh ec2-user@linux.itcareerhub.de
+   31  ssh ec2-user@linux.itcareerhub.de
+   32  ssh ec2-user@linux.itcareerhub.de
+   33  cd
+   34  cat .ssh/id_ed25519.pub 
+   35  ssh ec2-user@linux.itcareerhub.de
+   36  ssh ec2-user@linux.itcareerhub.de
+   37  cd ..
+   38  ssh ec2-user@linux.itcareerhub.de
+   39  [200~
+   40  ssh ec2-user@linux.itcareerhub.de
+   41  scp ssh ec2-user@linux.itcareerhub.de:/tmp/file1.txt.
+   42  scp ssh ec2-user@linux.itcareerhub.de:/tmp/file1.txt .
+   43  cd
+   44  git config --global user.name "IrinaP39"
+   45  git config --global user.email "pyhtinaira@gmail.com"
+   46  mk dir test_git
+   47  mkdir test_git
+   48  cd test_git
+   49  git init
+   50  touch test.txt
+   51  ls -la
+   52  git status
+   53  git add .
+   54  git status
+   55  git commit -m "added file test.txt"
+   56  echo "# test_git" >> README.md
+   57  ls
+   58  git status
+   59  git add .
+   60  git status
+   61  ls
+   62  git commit -m "added file README.md"
+   63  git branch -M main
+   64  git remote add origin git@github.com:IrinaP39/test_git.git
+   65  git push -u origin main
+   66  ssh ec2-user@linux.itcareerhub.de
+   67  mkdir git_intro
+   68  cd git_intro
+   69  ls
+   70  git_init
+   71  git init
+   72  git add rabbit.jpg
+   73  git add image.jpg
+   74  git comit -m "added image"
+   75  git commit -m "added image"
+   76  git branch -M main
+   77  git remote add origin git@github.com:IrinaP39/git_intro.git
+   78  git push -u origin main
+   79  git push -u origin main
+   80  ls
+   81  git status
+   82  ls
+   83  git init
+   84  ls
+   85  git push -u origin main
+   86  git push --help
+   87  git log
+   88  git push --all
+   89  git pull
+   90  ls
+   91  git push -u origin main
+   92  cd git@github.com:IrinaP39/git_intro.git
+   93  cd /git@github.com:IrinaP39/git_intro.git
+   94  git push -u origin main (non-fast-forward)
+   95  git push -u origin main (non-fast-forward)
+   96  git push -u origin main non-fast-forward
+   97  git push --help
+   98  git pull branches
+   99  git init
+  100  git status
+  101  git add "added image"
+  102  ls
+  103  ls -la
+  104  echo "# git_intro" >> README.md
+  105  ls
+  106  git commit -m "add README.md"
+  107  git status
+  108  ls
+  109  git commit -m "add file"
+  110  git push -u origin main 
+  111  git pull
+  112  git pull git_into
+  113  git remote add origin git@github.com:IrinaP39/git_intro.git
+  114  git push -u origin main
+  115  git remov -v
+  116  cd git_intro
+  117  git remote
+  118  git remote -v
+  119  git status
+  120  git add .
+  121  git commit -m "add"
+  122  git push
+  123  git push origin main
+  124  git fetch origin
+  125  git push origin main
+  126  git branch
+  127  git merge origin/main
+  128  git status
+  129  git push --force
+  130  git branch --set-upstream-to=origin/main
+  131  git push --set-upstream origin main
+  132  git pull upstream
+  133  git pull upstream origin main
+  134  git fetch origin
+  135  git fetch origin main
+  136  git merge origin/main
+  137  git status
+  138  git push --force
+  139  history
+  140  history > text01.11.24.txt
+  141  ls
+  142  rm text01.11.24.txt 
+  143  ls
+  144  cd ..
+  145  ls
+  146  mkdir Linux
+  147  ls
+  148  history > linux/text01.11.24.txt
+  149  ls
+  150  cat linux/text01.11.24.txt 
+  151  ssh ec2-user@linux.itcareerhub.de
+  152  touch myfirstbachscript.sh
+  153  ls
+  154  chmod u+x myfirstbachscript.sh
+  155  ll
+  156  ls
+  157  chmod u+x myfirstbachscript.sh
+  158  ls
+  159  chmod +x myfirstbachscript.sh
+  160  ls
+  161  nano myfirstbachscript.sh
+  162  ls
+  163  ./myfirstbachscript.sh 
+  164  ls
+  165  ./myfirstbachscript.sh 
+  166  cd ..
+  167  ls
+  168  ..
+  169  cd
+  170  ls
+  171  nano myfirstbachscript.sh 
+  172  ls
+  173  nano myfirstbachscript.sh 
+  174  ./myfirstbachscript.sh 
+  175  ls -la
+  176  chmod -x myfirstbachscript.sh 
+  177  ls -la
+  178  chmod u-x myfirstbachscript.sh 
+  179  ls -la
+  180  chmod ugo-rwx myfirstbachscript.sh 
+  181  ls -la
+  182  chmod ugo-rwx myfirstbachscript.sh 
+  183  ls -la
+  184  chmod -rwx myfirstbachscript.sh 
+  185  ls -la
+  186  chmod myfirstbachscript.sh 
+  187  ls -la
+  188  chmod 000 myfirstbachscript.sh 
+  189  ls -la
+  190  chmod u-x myfirstbachscript.sh 
+  191  ls -la
+  192  cat grep myfirstbachscript.sh 
+  193  history
+  194  cd
+  195  mkdir 0511
+  196  cd 0511
+  197  touch 0511test.txt
+  198  ls
+  199  ls -la
+  200  git init
+  201  git add .
+  202  git status
+  203  git commin -m "add new file"
+  204  git branch -M main
+  205  git branch
+  206  git branch
+  207  git remote add origin git@github.com:IrinaP39/0511.git
+  208  git remote -v
+  209  git push oridin main
+  210  git push origin main
+  211  git pull origin main
+  212  git pull origin main --allow-unrelated-histories
+  213  git status
+  214  git push origin main
+  215  ls -la
+  216  history
+  217  git status
+  218  git commit -m "added new"
+  219  git push origin main
+  220  git status
+  221  history >> 05.11.txt 
+  222  ls
+  223  rm -r 05.11.txt
+  224  ls
+  225  git branch
+  226  git checkout -b bug_fix
+  227  touch Irina.txt
+  228  git add.
+  229  git commit -m "add new file "Irina.txt""
+  230  git add .
+  231  git commit -m "add new file "Irina.txt""
+  232  git status
+  233  git branch
+  234  git checkout main
+  235  git merge bug_fix
+  236  git log
+  237  git push
+  238  git push --set-upstream origin main
+  239  git branch
+  240  git branch -d bug_fix
+  241  git branch
+  242  env
+  243  date >> 1.log
+  244  ls
+  245  ls
+  246  date >> 1.log
+  247  .gitignore
+  248  nano 1.log
+  249  nano 1.log
+  250  nano 1.log
+  251  rm 1.log .gitignore
+  252  mv 1.log .gitignore
+  253  mv 1.log.gitignore
+  254  mv 1.log .gitignore
+  255  nano
+  256  nano 1.log
+  257  ls
+  258  ls -la
+  259  git status
+  260  git add
+  261  git add .
+  262  git init
+  263  git add .gitignore
+  264  git status
+  265  git add .
+  266  git commit -m "add .gitignore"
+  267  git remote add origin git@github.com:IrinaP39/0511.git
+  268  git status
+  269  git push
+  270  git remote add origin git@github.com:IrinaP39/0511.git
+  271  git status
+  272  git pull
+  273  git push -u origin main
+  274  history
+  275  ls -la
+  276  chmod a-rwx myfirstbachscript.sh 
+  277  ls -la
+  278  chmod +x myfirstbachscript.sh 
+  279  ls -la
+  280  ./myfirstbachscript.sh 
+  281  find /path/ to/ serch myfirstbachscript.sh 
+  282  find /path/ to/ search myfirstbachscript.sh 
+  283  find myfirstbachscript.sh 
+  284  locate myfirstbachscript.sh 
+  285  pwd
+  286  cd ..
+  287  ls
+  288  ..
+  289  cd
+  290  ./myfirstbachscript.sh 
+  291  ls 
+  292  ls -la
+  293  ./myfirstbachscript.sh 
+  294  chmod -x myfirstbachscript.sh 
+  295  ls -la
+  296  ssh ec2-user@linux.itcareerhub.de
+  297  ssh ec2-user@linux.itcareerhub.de
+  298  cd
+  299  cd ..
+  300  ssh ec2-user@linux.itcareerhub.de
+  301  ls
+  302  cd /pykht
+  303  cd pykht
+  304  ls
+  305  ssh ec2-user@linux.itcareerhub.de
+  306  ls -la
+  307  cd .ssh
+  308  ls
+  309  ssh ~/.ssh/id_rsa.pub ec2-user@linux.itcareerhub.de
+  310  ssh  -i ~/.ssh/id_ed25519.pub ec2-user@linux.itcareerhub.de
+  311  ssh -i ~/.ssh/id_rsa.pub ec2-user@linux.itcareerhub.de
+  312  ssh ec2-user@linux.itcareerhub.de
+  313  ls -la
+  314  ssh -i ~/.ssh/./ ec2-user@linux.itcareerhub.de
+  315  enw
+  316  ewn
+  317  pdw
+  318  pwd
+  319  ssh -i ~/.ssh/c/Users/pykht/.ssh ec2-user@linux.itcareerhub.de
+  320  ssh -i /c/Users/pykht/.ssh ec2-user@linux.itcareerhub.de
+  321  ~/.ssh -i /c/Users/pykht/.ssh ec2-user@linux.itcareerhub.de
+  322  cd ..
+  323  ssh -i /c/Users/pykht/.ssh ec2-user@linux.itcareerhub.de
+  324  ssh -i /c/Users/pykht/Linux/id_ed25519.ssh ec2-user@linux.itcareerhub.de
+  325  ssh -i /c/Users/pykht/Linux/id_ed25519.ssh ec2-user@linux.itcareerhub.de
+  326  cd 
+  327  cd ..
+  328  ssh -i /c/Users/pykht/Linux/id_ed25519.ssh ec2-user@linux.itcareerhub.de
+  329  ssh -i /c/Users/pykht/Linux/.ssh/id_ed25519.ssh ec2-user@linux.itcareerhub.de
+  330  cd 
+  331  ssh -i /c/Users/pykht/Linux/.ssh/id_ed25519.ssh ec2-user@linux.itcareerhub.de
+  332  cat /c/Users/pykht/Linux/.ssh/id_ed25519.ssh
+  333  cat c/Users/pykht/Linux/.ssh/id_ed25519.ssh
+  334  cd c/Users/pykht/Linux/.ssh
+  335  cd /c/Users/pykht/Linux/.ssh
+  336  ls
+  337  cat id_ed25519.pub
+  338  ssh -i /c/Users/pykht/Linux/.ssh/id_ed25519.ssh ec2-user@linux.itcareerhub.de
+  339  clip < ~/.ssh/id_ed25519.pub
+  340  cd ..
+  341  cd 
+  342  clip < ~/.ssh/id_ed25519.pub
+  343  ssh -i~ /.ssh/id_ed25519.ssh ec2-user@linux.itcareerhub.de
+  344  ssh -i~/.ssh/id_ed25519.ssh ec2-user@linux.itcareerhub.de
+  345  ssh -i/.ssh/id_ed25519.ssh ec2-user@linux.itcareerhub.de
+  346  ssh -i/c/Users/pykht/Linux/.ssh/id_ed25519.ssh ec2-user@linux.itcareerhub.de
+  347  ssh -i/c/Users/pykht/Linux/.ssh/id_ed25519.pub ec2-user@linux.itcareerhub.de
+  348  ssh -i~ /c/Users/pykht/Linux/.ssh/id_ed25519.pub ec2-user@linux.itcareerhub.de
+  349  ssh -i~ /c/Users/pykht/Linux/.ssh/id_ed25519.pub ec2-user@linux.itcareerhub.de
+  350  ssh -i /c/Users/pykht/Linux/.ssh/id_ed25519.pub ec2-user@linux.itcareerhub.de
+  351  ssh -i /c/Users/pykht/Linux/.ssh/id_ed25519.pub ec2-user@linux.itcareerhub.de
+  352  ssh -i/c/Users/pykht/Linux/.ssh/id_ed25519.pub ec2-user@linux.itcareerhub.de
+  353  ssh -i~/c/Users/pykht/Linux/.ssh/id_ed25519.pub ec2-user@linux.itcareerhub.de
+  354  ssh -i /c/Users/pykht/Linux/.ssh/id_ed25519.pub ec2-user@linux.itcareerhub.de
+  355  ssh -i /c/Users/pykht/Linux/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+  356  ssh ec2-user@linux.itcareerhub.de
+  357  ssh -i /c/Users/pykht/Linux/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+  358  ssh -i /c/Users/pykht/Linux/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+  359  ls
+  360  ls -la
+  361  nano myfirstbachscript.sh 
+  362  spc ssh -i /c/Users/pykht/Linux/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de:/opt/260824-wde/Pykhtina_Irina/result.txt
+  363  spc ec2-user@linux.itcareerhub.de:/opt/260824-wde/Pykhtina_Irina/result.txt
+  364  scз ec2-user@linux.itcareerhub.de:/opt/260824-wde/Pykhtina_Irina/result.txt
+  365  scp ec2-user@linux.itcareerhub.de:/opt/260824-wde/Pykhtina_Irina/result.txt
+  366  scp -p ec2-user@linux.itcareerhub.de:/opt/260824-wde/Pykhtina_Irina/result.txt
+  367  scp ec2-user@linux.itcareerhub.de:/opt/260824-wde/Pykhtina_Irina/result.txt .
+  368  scp -i /c/Users/pykht/Linux/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de:/opt/260824-wde/Pykhtina_Irina/result.txt .
+  369  ls
+  370  cd git-branch/
+  371  ll
+  372  history
+  373  cd
+  374  ls
+  375  cd git-branch/
+  376  cd
+  377  cd git-branch
+  378  git checkout gitignor
+  379  git checkout -b gitignore
+  380  ls
+  381  ll
+  382  ls -la
+  383  nano .gitignore
+  384  ls
+  385  ls -la
+  386  git add .gitignore
+  387  git commit -m "Add .gitignore file"
+  388  git remote add origin git@github.com:IrinaP39/git-branch.git
+  389  git push -u origin gitignore
+  390  git init
+  391  ll
+  392  ls -la
+  393  git add .gitignore
+  394  ll
+  395  ls -la
+  396  git init
+  397  cd
+  398  cd git-branch/
+  399  git push -u origin gitignore
+  400  ls~/.ssh
+  401  ls ~/.ssh
+  402  cd
+  403  ssh-add /c/Users/pykht/Linux/.ssh/id_ed25519
+  404  ssh-add /c/Users/pykht/Linux/.ssh
+  405  ssh-add /c/Users/pykht/Linux/.ssh/id_ed25519
+  406  eval $(ssh-agent -s)
+  407  ssh-add /c/Users/pykht/Linux/.ssh/id_ed25519
+  408  ssh-add -l
+  409  ssh -T git@github.com
+  410  git push -u origin gitignore
+  411  cd git-branch/
+  412  git push -u origin gitignore
+  413  ssh -i /c/Users/pykht/Linux/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+  414  cd git-branch/
+  415  git branch
+  416  git log
+  417  git log -oneline
+  418  git log --oneline
+  419  git log -din
+  420  git log -1
+  421  git checkout -v main
+  422  cd 
+  423  cd git-branch/
+  424  touch text.txt
+  425  git add text.txt
+  426  git commit -m "added text.txt"
+  427  git checkout -b "feature
+  428  git checkout -b "feature"
+  429  git branche
+  430  git branch
+  431  git checkout -b main
+  432  git checkout feature 
+  433  echo "Что нибудь" >>README.md
+  434  git add README.md 
+  435  git status
+  436  git commit -m "added text in README.md"
+  437  git checkout main
+  438  git merge feature
+  439  git status
+  440  git log
+  441  git checkout feature 
+  442  touch 1.txt
+  443  touch 2.txt
+  444  git checkout main
+  445  touch main1.txt
+  446  git commit -am "commit message"
+  447  git add main1.txt 
+  448  git commit -m "commit message"
+  449  git checkout feature 
+  450  git status
+  451  git add 1.txt 2.txt
+  452  git commit -m "added 1.txt 2.txt"
+  453  git rebase main
+  454  git log
+  455  git checkout main
+  456  git merge feature
+  457  ls -la
+  458  git push
+  459  git push --force
+  460  git push --set-upstream origin main
+  461  eval $(ssh-agent -s)
+  462  git@github.com:IrinaP39/git-branch.git
+  463  -i /c/Users/pykht/Linux/.ssh/id_ed25519
+  464  -i /c/Users/pykht/Linux/.ssh
+  465  -i /c/Users/pykht/Linux/.ssh/id_ed25519
+  466  git checkout feature 
+  467  rm README.md 
+  468  git status
+  469  git add README.md 
+  470  git status
+  471  git commit -m "deleted README.md file"
+  472  git checkout main -- README.md
+  473  git status
+  474  git commit --amend -m “восстановили файл ”
+  475  git commit --amend -m "восстановили файл"
+  476  git reset HEAD
+  477  git reset HEAD^
+  478  git log
+  479  git log
+  480  git commit --amend -m "восстановили файл"
+  481  git log
+  482  ssh -i /c/Users/pykht/Linux/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+  483  ssh -i /c/Users/pykht/Linux/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+  484  ssh -i /.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+  485  ssh -i /.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+  486  ls ~/.ssh/id_ed25519
+  487  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+  488  ды
+  489  ls
+  490  git clone git@github.com:IrinaP39/03122024.git
+  491  cd 03122024
+  492  ls -la
+  493  git checkout -b feature
+  494  echo "Irina" >> Irina.txt
+  495  git status
+  496  git add Irina.txt
+  497  git commit -m "added file Irina.txt"
+  498  git status
+  499  git push origin feature 
+  500  git checkout main 
+  501  git clone https://github.com/IrinaP39/HW12.git
+  502  cd HW12
+  503  git checkout -b feature
+  504  # HW12
+  505  ll
+  506  nano .gitignore
+  507  nano README.md
+  508  ll
+  509  ls -la
+  510  git add README.md .gitignore
+  511  git commit -m "Add changes to README and .gitignore"
+  512  ll
+  513  ls -a
+  514  ll
+  515  git push origin feature
+  516  git commit --amend
+  517  git push --force
+  518  git push --set-upstream origin feature
+  519  git pull origin feature
+  520  git push origin feature
+  521  git checkout main
+  522  git merge feature
+  523  ll
+  524  ls -a
+  525  touch history.txt
+  526  history > history.txt
